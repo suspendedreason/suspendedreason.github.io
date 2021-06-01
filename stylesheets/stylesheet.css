@@ -1,0 +1,208 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+table {
+  border-spacing: 0;
+  border-color: white;
+}
+
+/*******************************************************************************
+Styles
+*******************************************************************************/
+
+html {
+  display: flex;
+  justify-content: left;
+}
+
+body {
+  color: black;
+  max-width: 1000px;
+  background: white;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  -webkit-font-smoothing: antialiased;
+  padding: 59px 100px;
+}
+
+#n-s-nav:hover ~ #non-software {
+  background: black;
+  color: white;
+}
+
+#intro {
+  display: flex;
+  justify-content: left;
+}
+
+#header-name {
+  width: 200px;
+  height: auto;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+#hcol-1 {
+  margin-right: 25px;
+  width: 20%;
+  min-width: 180px;
+}
+
+#hcol-2 {
+  width: 60%;
+  padding-left: 15px;
+}
+
+.nav-li {
+  display: flex;
+  justify-content: left;
+}
+
+.nav-li > li {
+  padding-right: 5px;
+}
+
+.nav-li a {
+  cursor: pointer;
+}
+
+#column-wrap {
+  display: flex;
+}
+
+#col-1 {
+  padding-right: 40px;
+  width: 90%
+}
+
+#col-2 {
+  padding-left: 40px;
+  width: 90%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  text-decoration: none;
+  margin-top: 18px;
+  margin-bottom: 6px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 21px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+p {
+  margin: 8px 0 8px 0;
+}
+
+i {
+  font-style: italic;
+}
+
+a {
+  color: black;
+}
+
+b {
+  font-weight: 700;
+}
+
+ol, ul {
+  list-style: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
+
+#friends-wrap {
+  display: flex;
+}
+
+.friends {
+  padding-right: 25px;
+}
+
+.fa-file-alt {
+  color: rgb(241, 206, 115);
+  padding: 5px 20px 5px 0px;
+}
+
+.fa-home {
+  height: min-content;
+  font-size: 33px;
+}
+
+.fa-home:hover {
+  color: green;
+}
+
+#docs-upper {
+  display: flex;
+  align-items: center;
+}
+
+#docs-nav h2{
+  margin: 0px 300px 0px 0px;
+  font-size: 36px;
+}
+
+
+#docs-lower a {
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.tab-in {
+  margin-left: 15px;
+  list-style-type: lao;
+}
+
+.tab-in li {
+  margin-bottom: 4px;
+}
