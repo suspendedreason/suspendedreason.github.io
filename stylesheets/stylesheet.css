@@ -88,10 +88,13 @@ body {
   padding-right: 5px;
 }
 
+<<<<<<< HEAD
 .nav-li a {
   cursor: pointer;
 }
 
+=======
+>>>>>>> 748085c226c70baaca341d461db12fe41d879498
 #column-wrap {
   display: flex;
 }
