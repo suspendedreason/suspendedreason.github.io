@@ -1,35 +1,112 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font: inherit;
-  vertical-align: baseline;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
 }
 
 table {
-  border-spacing: 0;
-  border-color: white;
+	border-spacing: 0;
+	border-color: white;
 }
 
 /*******************************************************************************
@@ -37,193 +114,200 @@ Styles
 *******************************************************************************/
 
 html {
-  display: flex;
-  justify-content: left;
+	display: flex;
+	justify-content: left;
 }
 
 body {
-  color: black;
-  max-width: 60vw;
-  background: white;
-  font-size: 15px;
-  font-family: 'Times New Roman', Times, serif;
-  -webkit-font-smoothing: antialiased;
-  padding: 6vh 7vw;
+	color: black;
+	max-width: 60vw;
+	background: white;
+	font-size: 15px;
+	font-family: 'Times New Roman', Times, serif;
+	-webkit-font-smoothing: antialiased;
+	padding: 6vh 7vw;
 }
 
 #n-s-nav:hover ~ #non-software {
-  background: black;
-  color: white;
+	background: black;
+	color: white;
 }
 
 #intro {
-  display: flex;
-  justify-content: left;
-  width: 85%;
+	display: flex;
+	justify-content: left;
+	width: 85%;
 }
 
 #header-name {
-  width: 200px;
-  height: auto;
-  padding-top: 0px;
-  margin-top: 0px;
+	width: 200px;
+	height: auto;
+	padding-top: 0px;
+	margin-top: 0px;
 }
 
 #hcol-1 {
-  margin-right: 25px;
-  flex: 1;
-  min-width: 180px;
+	margin-right: 25px;
+	flex: 1;
+	min-width: 180px;
 }
 
 #hcol-2 {
-  flex: 4;
+	flex: 4;
 }
 
 .nav-li {
-  display: flex;
-  justify-content: left;
+	display: flex;
+	justify-content: left;
 }
 
 .nav-li > li {
-  padding-right: 5px;
+	padding-right: 5px;
 }
 
 .nav-li a {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 #column-wrap {
-  display: flex;
+	display: flex;
 }
 
 #col-1 {
-  padding-right: 80px;
-  flex: 2;
+	padding-right: 80px;
+	flex: 2;
 }
 
 #col-2 {
-  flex: 3;
+	flex: 3;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 700;
-  text-decoration: none;
-  margin-top: 18px;
-  margin-bottom: 6px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 700;
+	text-decoration: none;
+	margin-top: 18px;
+	margin-bottom: 6px;
 }
 
 h1 {
-  font-size: 36px;
+	font-size: 36px;
 }
 
 h2 {
-  font-size: 32px;
+	font-size: 32px;
 }
 
 h3 {
-  font-size: 24px;
+	font-size: 24px;
 }
 
 h4 {
-  font-size: 21px;
+	font-size: 21px;
 }
 
 h5 {
-  font-size: 18px;
+	font-size: 18px;
 }
 
 h6 {
-  font-size: 16px;
+	font-size: 16px;
 }
 
 p {
-  margin: 8px 0 8px 0;
-  line-height: 1.2;
+	margin: 8px 0 8px 0;
+	line-height: 1.2;
 }
 
 i {
-  font-style: italic;
+	font-style: italic;
 }
 
 a {
-  color: black;
+	color: black;
 }
 
 b {
-  font-weight: 700;
+	font-weight: 700;
 }
 
-ol, ul {
-  list-style: none;
-  padding-top: 5px;
-  padding-bottom: 5px;
-
+ol,
+ul {
+	list-style: none;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 #friends-wrap {
-  display: flex;
+	display: flex;
 }
 
 .friends {
-  padding-right: 25px;
+	padding-right: 25px;
 }
 
 .fa-file-alt {
-  color: rgb(241, 206, 115);
-  padding: 5px 20px 5px 0px;
+	color: rgb(241, 206, 115);
+	padding: 5px 20px 5px 0px;
 }
 
 .fa-home {
-  height: min-content;
-  font-size: 33px;
+	height: min-content;
+	font-size: 33px;
 }
 
 .fa-home:hover {
-  color: green;
+	color: green;
 }
 
 #docs-upper {
-  display: flex;
-  align-items: center;
+	display: flex;
+	align-items: center;
 }
 
-#docs-nav h2{
-  margin: 0px 300px 0px 0px;
-  font-size: 36px;
+#docs-nav h2 {
+	margin: 0px 300px 0px 0px;
+	font-size: 36px;
 }
-
 
 #docs-lower a {
-  text-decoration: none;
-  font-size: 16px;
+	text-decoration: none;
+	font-size: 16px;
 }
 
 .tab-in {
-  margin-left: 30px;
-  list-style-type: lao;
+	margin-left: 30px;
+	list-style-type: lao;
 }
 
 .tab-in li {
-  margin-bottom: 4px;
+	margin-bottom: 4px;
 }
 
 @media only screen and (max-width: 1440px) {
-  #intro {
-    width: 100%;
-  }
+	#intro {
+		width: 100%;
+	}
 }
 
 @media only screen and (max-width: 1200px) {
-  body {
-    max-width: none;
-  }
+	body {
+		max-width: none;
+	}
 }
 
 @media only screen and (max-width: 860px) {
-  #intro, #column-wrap {
-    flex-direction: column;
-  }
-  #col-1 {
-    padding-right: 0px;
-  }
+	#intro {
+		flex-direction: column;
+	}
+	#column-wrap {
+		flex-direction: column-reverse;
+	}
+	#col-1 {
+		padding-right: 0px;
+	}
 }
