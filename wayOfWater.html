@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>The Way of Water</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <style>
+      /* Reset / baseline */
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        font-family: "Baskerville", "Times New Roman", Times, serif;
+        color: #0e0e4a;
+      }
+
+      /* Layout container */
+      .page {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+
+      /* Text section */
+      .text {
+        padding: 2rem;
+        box-sizing: border-box;
+      }
+
+      .text h1 {
+        margin-top: 0;
+      }
+
+      /* PDF section */
+      .pdf {
+        width: 100%;
+        height: 80vh; /* mobile: tall but scrollable */
+      }
+
+      .pdf embed {
+        width: 100%;
+        height: 100%;
+        border: none;
+      }
+
+      /* Desktop layout */
+      @media (min-width: 768px) {
+        .page {
+          flex-direction: row;
+        }
+
+        .text {
+          width: 50%;
+          height: 100vh;
+          overflow-y: auto;
+        }
+
+        .pdf {
+          width: 50%;
+          height: 100vh;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="page">
+      <section class="text">
+        <h1>The Way of Water</h1>
+        <p>
+          This text was written in January 2023. Each morning for a month, the
+          author visited the American Museum of Natural History. Each evening,
+          he watched James Cameron’s <i>The Way of Water</i>. This text is the
+          output of that period’s work.
+        </p>
+        <p>
+          Its primary stylistic debt is to Jacob Clifton of Television Without
+          Pity. Its chief intellectual debts include the microbiologist Lynn
+          Margulis, the economist Thomas Schelling, the journalists Robert
+          Wright and Charles Mann, and to members of The Inexact Sciences.
+        </p>
+        <br />
+        <p>A printed copy can be purchased through Prime.</p>
+      </section>
+
+      <section class="pdf">
+        <embed
+          src="docs/WayOfWater.pdf#toolbar=0&navpanes=0&scrollbar=0"
+          type="application/pdf"
+        />
+      </section>
+    </div>
+  </body>
+</html>
