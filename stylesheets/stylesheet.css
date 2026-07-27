@@ -310,4 +310,7 @@ ul {
 	#col-1 {
 		padding-right: 0px;
 	}
+	p {
+		margin: 16px 0 16px 0;
+	}
 }
